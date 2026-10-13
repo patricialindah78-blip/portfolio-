@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Patricia Lindah - Portfolio</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui, sans-serif}
+*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui,sans-serif}
 body{background:#f8fafc;color:#0f172a;line-height:1.6}
 header{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;background:white;position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(0,0,0,0.07)}
 .logo{font-weight:800;font-size:22px}.logo span{color:#2563eb}
@@ -20,41 +20,68 @@ h2{font-size:24px;margin-bottom:16px}
 .grid{display:grid;gap:14px}
 .card{background:white;padding:18px;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,0.05)}
 .card h3{margin-bottom:6px;color:#2563eb}
+.card img{width:100%;border-radius:10px;margin-bottom:10px;height:180px;object-fit:cover}
 .contact{background:#0f172a;color:#fff;border-radius:20px;padding:40px;text-align:center}
 .contact .btn{background:white;color:#0f172a!important;display:inline-block;margin-top:12px}
 footer{text-align:center;padding:20px;color:#999}
 </style>
 </head>
 <body>
-<header><div class="logo">Patricia<span>.</span></div><nav><a href="#home">Home</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="btn">Contact</a></nav></header>
+
+<header>
+  <div class="logo">Patricia<span>.</span></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">My Work</a>
+    <a href="#contact" class="btn">Contact</a>
+  </nav>
+</header>
+
 <div class="hero" id="home">
-<h1>I'm Nabagabo<br><span>Patricia Lindah</span></h1>
-<p>Serious, creative and ambitious ICT student based in Kampala, Uganda. Passionate about Web Development and Technology.</p><br>
-<a href="#projects" class="btn">View My Work</a>
+  <h1>I'm <span>Nabagabo Patricia Lindah</span><br>ICT Student & Creative Developer</h1>
+  <p>From Kampala, Uganda. I build simple, beautiful websites.</p>
 </div>
+
 <section id="skills">
-<h2>Skills</h2>
-<div class="grid">
-<div class="card"><h3>Web Development</h3><p>HTML, CSS, Responsive Design</p></div>
-<div class="card"><h3>Networking</h3><p>Setup & Troubleshooting</p></div>
-<div class="card"><h3>Computer Literacy</h3><p>Training & Support</p></div>
-<div class="card"><h3>Defensive Driving</h3><p>Certified by UDSA (Uganda Driving Standard Agency) — Skilled in defensive driving techniques, hazard awareness, road safety compliance, and responsible vehicle handling.</p></div>
-<div class="card"><h3>Creative Design</h3><p>Clean UI Layouts & Problem Solving</p></div>
-</div>
+  <h2>My Skills</h2>
+  <div class="grid">
+    <div class="card"><h3>Web Development</h3><p>HTML, CSS, GitHub Pages</p></div>
+    <div class="card"><h3>Networking</h3><p>Basic networking and support</p></div>
+    <div class="card"><h3>Computer Literacy</h3><p>Teaching and computer skills</p></div>
+  </div>
 </section>
-<section id="projects">
-<h2>Projects</h2>
-<div class="card"><h3>Portfolio Website</h3><p>My professional mobile-friendly portfolio built and hosted on GitHub Pages.</p></div>
-<div class="card"><h3>Student Management Concept</h3><p>A concept system for managing student records and data.</p></div>
+
+<section id="work">
+  <h2>My Work - With Images</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="photos/work1.jpg" alt="My work 1">
+      <h3>Project 1 - Website</h3>
+      <p>My first portfolio website</p>
+    </div>
+    <div class="card">
+      <img src="photos/work2.jpg" alt="My work 2">
+      <h3>Project 2 - Networking</h3>
+      <p>Network setup I did</p>
+    </div>
+    <div class="card">
+      <img src="photos/work3.jpg" alt="My work 3">
+      <h3>Project 3 - Training</h3>
+      <p>Computer training session</p>
+    </div>
+  </div>
 </section>
-<section>
-<div class="contact" id="contact">
-<h2>Let's Work Together</h2>
-<p>Available for internship and student projects</p><br>
-<p>Email: patricialindah@email.com<br>Location: Kampala, Uganda<br>GitHub: patricialindah78-blip</p><br>
-<a href="mailto:patricialindah@email.com" class="btn">Send Email</a>
-</div>
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p>Let's work together!</p>
+  <p>Email: patricialindah78@gmail.com</p>
+  <p>Kampala, Uganda</p>
+  <a href="https://github.com/patricialindah78-blip" class="btn">My GitHub</a>
 </section>
-<footer>© 2026 Nabagabo Patricia Lindah</footer>
+
+<footer>© 2025 Patricia Lindah</footer>
+
 </body>
 </html>
