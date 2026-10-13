@@ -1,87 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Patricia Lindah - Portfolio</title>
+<title>Patricia Lindah</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui,sans-serif}
-body{background:#f8fafc;color:#0f172a;line-height:1.6}
-header{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;background:white;position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(0,0,0,0.07)}
+*{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif}
+body{background:#f8fafc;color:#0f172a}
+header{display:flex;justify-content:space-between;padding:18px;background:white;box-shadow:0 2px 10px rgba(0,0,0,.07)}
 .logo{font-weight:800;font-size:22px}.logo span{color:#2563eb}
-nav{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
-nav a{text-decoration:none;color:#0f172a;font-weight:500;font-size:15px}
-.btn{background:#0f172a;color:white!important;padding:10px 18px;border-radius:20px;text-decoration:none;font-weight:600}
-.hero{padding:60px 22px}
-.hero h1{font-size:28px;line-height:1.2;margin-bottom:12px}
-.hero h1 span{color:#2563eb}
-section{padding:20px 22px}
-h2{font-size:24px;margin-bottom:16px}
-.grid{display:grid;gap:14px}
-.card{background:white;padding:18px;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,0.05)}
-.card h3{margin-bottom:6px;color:#2563eb}
-.card img{width:100%;border-radius:10px;margin-bottom:10px;height:180px;object-fit:cover}
-.contact{background:#0f172a;color:#fff;border-radius:20px;padding:40px;text-align:center}
-.contact .btn{background:white;color:#0f172a!important;display:inline-block;margin-top:12px}
-footer{text-align:center;padding:20px;color:#999}
+section{padding:22px}
+.card{background:white;padding:18px;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin-bottom:14px}
+.card img{width:100%;border-radius:12px;margin-bottom:12px}
+.badge{background:#e0e7ff;color:#2563eb;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:700}
 </style>
 </head>
 <body>
+<header><div class="logo">Patricia<span>.</span></div></header>
 
-<header>
-  <div class="logo">Patricia<span>.</span></div>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#skills">Skills</a>
-    <a href="#work">My Work</a>
-    <a href="#contact" class="btn">Contact</a>
-  </nav>
-</header>
-
-<div class="hero" id="home">
-  <h1>I'm <span>Nabagabo Patricia Lindah</span><br>ICT Student & Creative Developer</h1>
-  <p>From Kampala, Uganda. I build simple, beautiful websites.</p>
+<section>
+<h2>My Work</h2>
+<div class="card">
+<span class="badge">Calendar Design 2026</span>
+<img src="kiboko-calendar.jpg" alt="Kiboko Calendar">
+<h3>KIBOKO 2026 Calendar - 12 Months</h3>
+<p>Complete calendar design for Kiboko Steel in Adobe Illustrator. 12 artboards showcasing products: Alu-Zinc Coils, Pre-Painted Coils, Tile Mabati, Wheelbarrows, etc. Slogan: THINK MABATI, THINK KIBOKO.</p>
+<p style="font-size:12px;color:#64748b;margin-top:8px">Tools: Adobe Illustrator | Client: MM Steel / Kiboko</p>
 </div>
-
-<section id="skills">
-  <h2>My Skills</h2>
-  <div class="grid">
-    <div class="card"><h3>Web Development</h3><p>HTML, CSS, GitHub Pages</p></div>
-    <div class="card"><h3>Networking</h3><p>Basic networking and support</p></div>
-    <div class="card"><h3>Computer Literacy</h3><p>Teaching and computer skills</p></div>
-  </div>
 </section>
 
-<section id="work">
-  <h2>My Work - With Images</h2>
-  <div class="grid">
-    <div class="card">
-      <img src="photos/work1.jpg" alt="My work 1">
-      <h3>Project 1 - Website</h3>
-      <p>My first portfolio website</p>
-    </div>
-    <div class="card">
-      <img src="photos/work2.jpg" alt="My work 2">
-      <h3>Project 2 - Networking</h3>
-      <p>Network setup I did</p>
-    </div>
-    <div class="card">
-      <img src="photos/work3.jpg" alt="My work 3">
-      <h3>Project 3 - Training</h3>
-      <p>Computer training session</p>
-    </div>
-  </div>
+<section style="background:#0f172a;color:white;border-radius:20px;text-align:center">
+<h2>Contact</h2>
+<p>patricialindah78@gmail.com</p>
+<p>Kampala, Uganda</p>
 </section>
-
-<section id="contact" class="contact">
-  <h2>Contact Me</h2>
-  <p>Let's work together!</p>
-  <p>Email: patricialindah78@gmail.com</p>
-  <p>Kampala, Uganda</p>
-  <a href="https://github.com/patricialindah78-blip" class="btn">My GitHub</a>
-</section>
-
-<footer>© 2025 Patricia Lindah</footer>
-
 </body>
 </html>
